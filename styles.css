@@ -1,0 +1,51 @@
+.music-charts-container {
+    width: 100%;
+}
+.music-charts {
+    color: #344072;
+    display: flex;
+    padding: 10px 0;
+    border-bottom: dashed 2px #ddd;
+    max-width: 300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.music-charts__rank {
+    flex-shrink: 0;
+    width: 60px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+}
+.trend__icon {
+    font-size: 11px;
+    line-height: 12px;
+    margin-top: 8px;
+}
+.trend__icon img {
+    width: 32px;
+}
+.music-charts__detail {
+    flex: 1;
+    padding-right: 5px;
+}
+.music-charts__title {
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.music-charts__subtitle {
+    color: #8086a0;
+}
+.music-charts__promo {
+    margin-top: 5px;
+}
+.music-charts__image {
+    width: 100px;
+    flex-shrink: 0;
+}
+.music-charts__image img {
+    width: 100%;
+}
